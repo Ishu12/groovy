@@ -3,7 +3,7 @@ import hudson.security.*
 import java.util.*
 import com.michelin.cio.hudson.plugins.rolestrategy.*
 import java.lang.reflect.*
-
+import jenkins.model.Jenkins
 def ldapGroupName = "ishuallawadhi@in.ibm.com"
 def projectPrefix = "AutoGrill-User"
   
