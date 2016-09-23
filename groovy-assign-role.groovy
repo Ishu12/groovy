@@ -1,3 +1,4 @@
+import jenkins.model.Jenkins
 import hudson.*
 import hudson.security.*
 import java.util.*
