@@ -8,8 +8,8 @@ import java.lang.reflect.*
 
 //def ldapGroupName = "ishuallawadhi@in.ibm.com"
 //def projectPrefix = "AutoGrill-User"
-  def ldapGroupName = $username
-  def projectPrefix = $projectname
+  def ldapGroupName = "$username"
+  def projectPrefix = "$projectname"
   
 def authStrategy = Hudson.instance.getAuthorizationStrategy()
 
