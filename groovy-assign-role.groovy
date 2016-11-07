@@ -6,10 +6,10 @@ import java.util.*
 import com.michelin.cio.hudson.plugins.rolestrategy.*
 import java.lang.reflect.*
 
-//def ldapGroupName = "ishuallawadhi@in.ibm.com"
-//def projectPrefix = "AutoGrill-User"
-  def ldapGroupName = "$username"
-  def projectPrefix = "$projectname"
+def ldapGroupName = "ishuallawadhi@in.ibm.com"
+def projectPrefix = "AutoGrill-User"
+  //def ldapGroupName = "$username"
+  //def projectPrefix = "$projectname"
   
 def authStrategy = Hudson.instance.getAuthorizationStrategy()
 
